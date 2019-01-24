@@ -14,7 +14,7 @@ either of two outcomes {Head, Tail}.
 	- And so on… 
 - Our goal is to estimate "E"[X]. 
 
-Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+Let $\lambda{}$
 	
 Develop a simulation model to get 1000 realization of X. 
 Print the average of these realizations as an estimate for "E"[X].

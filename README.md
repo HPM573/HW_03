@@ -6,7 +6,7 @@ and you will receive $100 any time you get a “Head” after two consecutive �
 If you need to pay $250 to enter in the game, estimate the expected reward using Monte Carlo simulation. 
 
 - This experiment involves 20 random events {E_1,E_2,E_3,…,E_20}, where each event E_i results in 
-either of two outcomes {Head, Tail}.
+either of two outcomes: Head or Tail.
 - Whenever {Tail, Tail, Head} occurs, we receive $100. So if we use random variable X to denote the total reward, then: 
 	- X = $0 - $250 = -$250 if {Tail, Tail, Head} never occurs
 	- X = $100 - $250 = -$150 if {Tail, Tail, Head} occurs once

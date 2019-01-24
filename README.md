@@ -8,12 +8,11 @@ If you need to pay $250 to enter in the game, estimate the expected reward using
 - This experiment involves 20 random events {E_1,E_2,E_3,…,E_20}, where each event E_i results in 
 either of two outcomes {Head, Tail}.
 - Whenever {Tail, Tail, Head} occurs, we receive $100. So if we use random variable X to denote the total reward, then: 
-	- X = $0 - $250 = -$250 if {Tail, Tail, Head} never occurs
+	- X = $0 - 250 = -$250 if {Tail, Tail, Head} never occurs
 	- X = $100 - $250 = -$150 if {Tail, Tail, Head} occurs once
 	- X = $200 - $250 = -$50 if {Tail, Tail, Head} occurs twice
 	- And so on… 
 - Our goal is to estimate E[X]. 
-
 	
 Develop a simulation model to get 1000 realization of X. 
 Print the average of these realizations as an estimate for E[X]. *Hints*: Create a class `Game` that has a method attribute 
